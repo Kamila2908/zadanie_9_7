@@ -130,7 +130,7 @@ function checkGameWinner() {
 }
 
 function setGameState() {
-    game = 'notStarted',  //started // ended
+    gameState = 'notStarted',  //started // ended
         player = {
             name: '',
             score: 0
